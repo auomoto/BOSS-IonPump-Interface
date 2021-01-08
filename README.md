@@ -1,2 +1,4 @@
 # BOSS-IonPump-Interface
- Power to and data from Modion pump
+The BOSS CCD dewars use a Modion C-1765V 2l/s ion pump that has a custom vacuum fitting. This model number is not on the current modionvacuum.com website but the C-1765M looks similar.
+The power supply is a Modion C-1766Q, which supplies the high voltage and also presents an analog signal indicating internal current that can be used as a vacuum pressure measurement. This power supply has an unusual 5-pin connector with a wall plug-in supply to supply power and also break out the signals.
+To distribute the signals to the BOSS motion controller system (specMech) we use an interface box that supplies isolated 15 V to the two ion pumps (one on each of the two dewars) and conditions the analog signal for transmission to the control system.
