@@ -8890,18 +8890,8 @@ to pin 3.</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="202,1,27.94,78.74,PS1,CTRL,,,,"/>
-<approved hash="104,1,109.22,91.44,U1,VCAP,VCAP-RED,,,"/>
-<approved hash="104,1,109.22,86.36,U1,VDD1,VDD1-RED,,,"/>
-<approved hash="104,1,109.22,83.82,U1,GND1,GND-ISO-RED,,,"/>
-<approved hash="104,1,134.62,83.82,U1,GND2,GND,,,"/>
-<approved hash="104,1,134.62,91.44,U1,VDD2,+5V,,,"/>
-<approved hash="202,1,27.94,20.32,PS2,CTRL,,,,"/>
-<approved hash="104,1,109.22,33.02,U2,VCAP,VCAP-BLUE,,,"/>
-<approved hash="104,1,109.22,27.94,U2,VDD1,VDD1-BLUE,,,"/>
-<approved hash="104,1,109.22,25.4,U2,GND1,GND-ISO-BLUE,,,"/>
-<approved hash="104,1,134.62,25.4,U2,GND2,GND,,,"/>
-<approved hash="104,1,134.62,33.02,U2,VDD2,+5V,,,"/>
+<approved hash="202,1,50.8,139.7,PS1,CTRL,,,,"/>
+<approved hash="202,1,50.8,81.28,PS2,CTRL,,,,"/>
 </errors>
 </schematic>
 </drawing>
