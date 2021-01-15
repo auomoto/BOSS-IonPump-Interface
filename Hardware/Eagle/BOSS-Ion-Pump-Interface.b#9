@@ -186,7 +186,7 @@ Ion Pump Interface</text>
 <text x="31.75" y="24.765" size="1.016" layer="22" font="vector" rot="MR90">GND</text>
 <text x="10.795" y="41.275" size="1.27" layer="21" font="vector" rot="R90">BLUE</text>
 <text x="10.795" y="13.97" size="1.27" layer="21" font="vector" rot="R90">RED</text>
-<text x="8.89" y="34.29" size="1.016" layer="21" font="vector">+</text>
+<text x="8.89" y="33.655" size="1.016" layer="21" font="vector">+24V</text>
 <text x="8.89" y="31.115" size="1.016" layer="21" font="vector">GND</text>
 <text x="33.02" y="33.655" size="1.016" layer="21" font="vector">Analog to specMech</text>
 <text x="34.925" y="37.465" size="1.016" layer="21" font="vector">ADS1115</text>
@@ -747,7 +747,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SPICEPREFIX" value="C" x="107.95" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1.0uF" x="25.4" y="16.51" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.67" y="19.685" size="1.016" layer="25" rot="R180"/>
+<attribute name="NAME" x="26.035" y="19.685" size="1.016" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="88" x="81.28" y="78.74" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="81.28" y="78.74" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -800,7 +800,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="29.845" y="19.685" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="POPULARITY" value="86" x="-31.75" y="-25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-31.75" y="-25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="26.67" y="18.415" size="1.016" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="R0805" package3d_urn="urn:adsk.eagle:package:24631221/1" value="1K" x="29.21" y="44.45" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.845" y="47.625" size="1.016" layer="25" font="vector" rot="R180"/>
@@ -827,15 +826,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="7.62" y="36.703" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="J4" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="1X06-MOLEX-22112062" package3d_urn="urn:adsk.eagle:package:24729331/2" value="MOLEX-22112062" x="37.465" y="29.21" smashed="yes">
-<attribute name="NAME" x="29.21" y="31.75" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="29.21" y="30.48" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="C5" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.22uF" x="32.385" y="19.685" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.115" y="22.225" size="1.016" layer="25"/>
+<attribute name="NAME" x="33.02" y="23.495" size="1.016" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="54" x="32.385" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="32.385" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C7" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF" x="25.4" y="10.795" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.13" y="6.985" size="1.016" layer="25"/>
+<attribute name="NAME" x="24.765" y="6.985" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="54" x="25.4" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="25.4" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -845,7 +844,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SPICEPREFIX" value="C" x="29.21" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C6" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.22uF" x="32.7025" y="47.625" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.4325" y="50.165" size="1.016" layer="25"/>
+<attribute name="NAME" x="33.3375" y="51.435" size="1.016" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="54" x="32.7025" y="47.625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="32.7025" y="47.625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -883,21 +882,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESDA6V1BC6/?ref=eda" x="41.275" y="32.385" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="43.275" y="30.385" size="1.016" layer="28" rot="MR0" align="top-left"/>
 </element>
-<element name="TP1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="TP5000-TESTPOINT-BLK" package3d_urn="urn:adsk.eagle:package:24642442/4" value="TP5000-TESTPOINT-BLK" x="1.905" y="-3.175" smashed="yes">
-<attribute name="NAME" x="0.635" y="-1.905" size="1.016" layer="25" font="vector"/>
-<attribute name="VALUE" x="0.635" y="-5.715" size="1.016" layer="27" font="vector"/>
+<element name="TP1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="TP5000-TESTPOINT-BLK" package3d_urn="urn:adsk.eagle:package:24642442/4" value="TP5000-TESTPOINT-BLK" x="27.305" y="53.34" smashed="yes">
+<attribute name="NAME" x="26.035" y="50.8" size="1.016" layer="25" font="vector"/>
 </element>
-<element name="TP2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="TP5000-TESTPOINT-BLK" package3d_urn="urn:adsk.eagle:package:24642442/4" value="TP5000-TESTPOINT-BLK" x="1.905" y="-9.525" smashed="yes">
-<attribute name="NAME" x="0.635" y="-8.255" size="1.016" layer="25" font="vector"/>
-<attribute name="VALUE" x="0.635" y="-12.065" size="1.016" layer="27" font="vector"/>
+<element name="TP2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="TP5000-TESTPOINT-BLK" package3d_urn="urn:adsk.eagle:package:24642442/4" value="TP5000-TESTPOINT-BLK" x="27.305" y="21.59" smashed="yes">
+<attribute name="NAME" x="27.94" y="24.13" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="TP3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="TP5000-TESTPOINT-BLK" package3d_urn="urn:adsk.eagle:package:24642442/4" value="TP5000-TESTPOINT-BLK" x="1.905" y="-15.875" smashed="yes">
-<attribute name="NAME" x="0.635" y="-14.605" size="1.016" layer="25" font="vector"/>
-<attribute name="VALUE" x="0.635" y="-18.415" size="1.016" layer="27" font="vector"/>
+<element name="TP3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="TP5000-TESTPOINT-BLK" package3d_urn="urn:adsk.eagle:package:24642442/4" value="TP5000-TESTPOINT-BLK" x="22.86" y="42.545" smashed="yes">
+<attribute name="NAME" x="21.59" y="40.005" size="1.016" layer="25" font="vector"/>
 </element>
-<element name="TP4" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="TP5000-TESTPOINT-BLK" package3d_urn="urn:adsk.eagle:package:24642442/4" value="TP5000-TESTPOINT-BLK" x="1.905" y="-22.225" smashed="yes">
-<attribute name="NAME" x="0.635" y="-20.955" size="1.016" layer="25" font="vector"/>
-<attribute name="VALUE" x="0.635" y="-24.765" size="1.016" layer="27" font="vector"/>
+<element name="TP4" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="TP5000-TESTPOINT-BLK" package3d_urn="urn:adsk.eagle:package:24642442/4" value="TP5000-TESTPOINT-BLK" x="40.64" y="53.34" smashed="yes">
+<attribute name="NAME" x="41.275" y="55.88" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -951,7 +946,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="TVS3" pad="2"/>
 <contactref element="TVS3" pad="5"/>
 <contactref element="TP4" pad="P$1"/>
-<wire x1="43.4848" y1="12.065" x2="1.905" y2="-22.225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCAP-RED">
 <contactref element="U1" pad="1"/>
@@ -1091,7 +1085,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="2.54" y1="51.94" x2="2.54" y2="50.165" width="0.508" layer="1"/>
 <via x="2.54" y="50.165" extent="1-16" drill="0.35"/>
 <contactref element="TP1" pad="P$1"/>
-<wire x1="2.54" y1="24" x2="1.905" y2="-3.175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IN-RED">
 <contactref element="U1" pad="2"/>
@@ -1235,7 +1228,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="23.495" y="9.525" extent="1-16" drill="0.35"/>
 <contactref element="TVS1" pad="2"/>
 <contactref element="TP2" pad="P$1"/>
-<wire x1="5.08" y1="11.43" x2="1.905" y2="-9.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND-ISO-BLUE">
 <contactref element="J3" pad="1"/>
@@ -1282,7 +1274,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="23.495" y="37.465" extent="1-16" drill="0.35"/>
 <contactref element="TVS2" pad="2"/>
 <contactref element="TP3" pad="P$1"/>
-<wire x1="5.08" y1="39.37" x2="1.905" y2="-15.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FROM-BLUE-PUMP">
 <contactref element="TVS2" pad="1"/>

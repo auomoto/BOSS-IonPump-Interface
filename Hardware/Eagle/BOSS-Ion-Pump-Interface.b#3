@@ -1292,8 +1292,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="5.08" y1="46.99" x2="7.742875" y2="46.99" width="0.508" layer="16"/>
 <wire x1="7.742875" y1="46.99" x2="8.3544" y2="46.378475" width="0.508" layer="16"/>
 </signal>
-<signal name="N$1">
-</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
