@@ -193,7 +193,6 @@ Ion Pump Interface</text>
 <text x="34.925" y="9.525" size="1.016" layer="21" font="vector">ADS1115</text>
 <text x="16.51" y="41.275" size="1.016" layer="22" font="vector" rot="MR0">+15V</text>
 <text x="16.51" y="13.335" size="1.016" layer="22" font="vector" rot="MR0">+15V</text>
-<text x="16.51" y="10.795" size="1.016" layer="22" font="vector" rot="MR0">GND-ISO-RED</text>
 <text x="34.29" y="60.96" size="1.27" layer="22" rot="MR0">2021-01-12 BOSS
 Ion Pump Interface</text>
 </plain>
