@@ -10118,8 +10118,8 @@ Output </description>
 <part name="C6" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.22uF"/>
 <part name="C8" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1.0uF"/>
 <part name="C10" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1uF"/>
-<part name="TVS1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="TVS-DIODE-SMAJ6.0CA-13-F" device="SMA_DIO-M" package3d_urn="urn:adsk.eagle:package:25921539/2" value="SMAJ6.0CA-13F"/>
-<part name="TVS2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="TVS-DIODE-SMAJ6.0CA-13-F" device="SMA_DIO-M" package3d_urn="urn:adsk.eagle:package:25921539/2" value="SMAJ6.0CA-13F"/>
+<part name="TVS1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="TVS-DIODE-SMAJ6.0CA-13-F" device="SMA_DIO-M" package3d_urn="urn:adsk.eagle:package:25921539/2" value="SMAJ10CA-13F"/>
+<part name="TVS2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="TVS-DIODE-SMAJ6.0CA-13-F" device="SMA_DIO-M" package3d_urn="urn:adsk.eagle:package:25921539/2" value="SMAJ10CA-13F"/>
 <part name="TVS3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="TVS-QUAD-ESDA6V1BC6" device="" package3d_urn="urn:adsk.eagle:package:25920714/2" value="ESDA6V1BC6"/>
 <part name="GND11" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="GND" device=""/>
 <part name="GND12" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="GND" device=""/>
@@ -10148,7 +10148,7 @@ Output </description>
 <part name="R3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:24631221/1" value="100K"/>
 <part name="P+6" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="+24V" device=""/>
 <part name="GND13" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="GND-1" device=""/>
-<part name="D1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="ZENER-BZT52C11-7-F" device="" package3d_urn="urn:adsk.eagle:package:26453057/2" value="11V"/>
+<part name="D1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="ZENER-BZT52C11-7-F" device="" package3d_urn="urn:adsk.eagle:package:26453057/2" value="BZT52C11-7-F"/>
 </parts>
 <sheets>
 <sheet>
@@ -10373,7 +10373,7 @@ to pin 3.</text>
 </instance>
 <instance part="D1" gate="A" x="106.68" y="48.26" smashed="yes">
 <attribute name="NAME" x="110.49" y="46.99" size="1.778" layer="95"/>
-<attribute name="VALUE" x="102.87" y="38.1" size="1.778" layer="96"/>
+<attribute name="VALUE" x="102.87" y="43.18" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
