@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -10127,9 +10127,7 @@ Output </description>
 <part name="TP2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="TP5000-TESTPOINT-BLK" device="" package3d_urn="urn:adsk.eagle:package:24642442/4"/>
 <part name="TP3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="TP5000-TESTPOINT-BLK" device="" package3d_urn="urn:adsk.eagle:package:24642442/4"/>
 <part name="TP4" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="TP5000-TESTPOINT-BLK" device="" package3d_urn="urn:adsk.eagle:package:24642442/4"/>
-<part name="U$1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="NC" device=""/>
 <part name="U$2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="NC" device=""/>
-<part name="U$3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="NC" device=""/>
 <part name="U$4" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="NC" device=""/>
 <part name="U$5" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="NC" device=""/>
 <part name="U$6" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="NC" device=""/>
@@ -10338,9 +10336,7 @@ to pin 3.</text>
 <instance part="TP4" gate="G$1" x="241.3" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="241.3" y="179.07" size="1.27" layer="95"/>
 </instance>
-<instance part="U$1" gate="G$1" x="50.8" y="165.1" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="81.28" y="165.1" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="50.8" y="106.68" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="81.28" y="106.68" smashed="yes"/>
 <instance part="U$5" gate="G$1" x="81.28" y="96.52" smashed="yes"/>
 <instance part="U$6" gate="G$1" x="81.28" y="154.94" smashed="yes"/>
@@ -10846,7 +10842,7 @@ to pin 3.</text>
 <label x="27.94" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="REVERSE-POL-ZENER" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="43.18" x2="106.68" y2="40.64" width="0.1524" layer="91"/>

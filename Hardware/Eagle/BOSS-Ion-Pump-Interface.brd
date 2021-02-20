@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -176,7 +176,7 @@
 <circle x="43.18" y="5.08" radius="2.794" width="0.1524" layer="21"/>
 <hole x="43.18" y="60.96" drill="3.175"/>
 <circle x="43.18" y="60.96" radius="2.794" width="0.1524" layer="21"/>
-<text x="20.32" y="60.96" size="1.27" layer="21">2021-01-31 BOSS
+<text x="20.32" y="60.96" size="1.27" layer="21">2021-02-19 BOSS
 Ion Pump Interface</text>
 <text x="41.91" y="22.225" size="1.016" layer="22" font="vector" rot="MR90">OUTN-A</text>
 <text x="44.45" y="22.225" size="1.016" layer="22" font="vector" rot="MR90">OUTP-A</text>
@@ -193,10 +193,10 @@ Ion Pump Interface</text>
 <text x="34.925" y="9.525" size="1.016" layer="21" font="vector">ADS1115</text>
 <text x="16.51" y="41.275" size="1.016" layer="22" font="vector" rot="MR0">+15V</text>
 <text x="16.51" y="13.335" size="1.016" layer="22" font="vector" rot="MR0">+15V</text>
-<text x="34.29" y="60.96" size="1.27" layer="22" rot="MR0">2021-01-31 BOSS
+<text x="34.29" y="60.96" size="1.27" layer="22" rot="MR0">2021-02-19 BOSS
 Ion Pump Interface</text>
-<text x="25.4" y="50.8" size="1.016" layer="21" font="vector">GND-1</text>
-<text x="42.2275" y="53.0225" size="1.016" layer="21" font="vector">GND</text>
+<text x="25.0825" y="50.4825" size="1.016" layer="21" font="vector">GND-1</text>
+<text x="36.195" y="52.705" size="1.016" layer="21" font="vector">GND</text>
 <text x="17.78" y="2.2225" size="1.016" layer="21">TP2=GND-ISO-B
 TP3=GND-ISO-A</text>
 <text x="16.51" y="53.975" size="1.016" layer="22" font="vector" rot="MR0">GND-1</text>
@@ -1433,7 +1433,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="D1" pad="1"/>
 <wire x1="14.785" y1="31.75" x2="12.7" y2="31.75" width="0.508" layer="1"/>
 </signal>
-<signal name="N$2">
+<signal name="REVERSE-POL-ZENER">
 <contactref element="R3" pad="2"/>
 <contactref element="D1" pad="2"/>
 <wire x1="20.9575" y1="31.75" x2="18.235" y2="31.75" width="0.508" layer="1"/>
