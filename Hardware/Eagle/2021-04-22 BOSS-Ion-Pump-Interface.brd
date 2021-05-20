@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1437,10 +1437,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R3" pad="2"/>
 <contactref element="D1" pad="2"/>
 <wire x1="20.9575" y1="31.75" x2="18.235" y2="31.75" width="0.508" layer="1"/>
-</signal>
-<signal name="N$1" class="1">
-</signal>
-<signal name="N$2" class="1">
 </signal>
 </signals>
 <mfgpreviewcolors>

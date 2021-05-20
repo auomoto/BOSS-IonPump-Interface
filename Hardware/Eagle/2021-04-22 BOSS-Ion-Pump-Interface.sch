@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -10854,32 +10854,6 @@ to pin 3.</text>
 <sheet>
 <description>External Connections</description>
 <plain>
-<text x="124.46" y="157.48" size="2.54" layer="250">SIX-PINS
-
-Wire Colors
-1-BLK: GND
-2-RED: +5V
-3-BLU: OUTB+
-4-YEL: OUTB-
-5-GRN: OUTA-
-6-WHT: OUTA+</text>
-<wire x1="157.48" y1="193.04" x2="157.48" y2="152.4" width="0.254" layer="250"/>
-<wire x1="157.48" y1="152.4" x2="60.96" y2="152.4" width="0.254" layer="250"/>
-<wire x1="60.96" y1="152.4" x2="60.96" y2="193.04" width="0.254" layer="250"/>
-<wire x1="60.96" y1="193.04" x2="157.48" y2="193.04" width="0.254" layer="250"/>
-<wire x1="60.96" y1="127" x2="200.66" y2="127" width="0.254" layer="250"/>
-<wire x1="200.66" y1="127" x2="200.66" y2="53.34" width="0.254" layer="250"/>
-<wire x1="200.66" y1="53.34" x2="60.96" y2="53.34" width="0.254" layer="250"/>
-<wire x1="60.96" y1="53.34" x2="60.96" y2="127" width="0.254" layer="250"/>
-<text x="154.94" y="78.74" size="2.54" layer="250">SIX-RECEPTACLE
-
-Wire Colors
-1-GRN: CASE GND
-2-BLU: PUMP SIGNAL
-3-NC
-4-BLK: GND-ISO
-5-RED: TO VDD
-6-YEL:  FROM +15V</text>
 </plain>
 <instances>
 <instance part="U$8" gate="G$1" x="114.3" y="106.68" smashed="yes"/>
@@ -10892,7 +10866,7 @@ Wire Colors
 </instance>
 <instance part="U$7" gate="G$1" x="121.92" y="104.14" smashed="yes"/>
 <instance part="U$10" gate="G$1" x="121.92" y="68.58" smashed="yes"/>
-<instance part="U$11" gate="G$1" x="91.44" y="170.18" smashed="yes"/>
+<instance part="U$11" gate="G$1" x="114.3" y="152.4" smashed="yes"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="172.72" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
@@ -10912,9 +10886,17 @@ Wire Colors
 </net>
 <net name="VDD1-B" class="1">
 <segment>
+<pinref part="U$8" gate="G$1" pin="6"/>
+<wire x1="106.68" y1="109.22" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="109.22" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="5"/>
+<wire x1="104.14" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="109.22" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
+<junction x="104.14" y="109.22"/>
 <label x="83.82" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="106.68" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
+<junction x="104.14" y="104.14"/>
 </segment>
 </net>
 <net name="GND-ISO-B" class="1">
@@ -10955,8 +10937,16 @@ Wire Colors
 </net>
 <net name="VDD1-A" class="1">
 <segment>
-<wire x1="106.68" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="SW2" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="73.66" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="73.66" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="6"/>
+<wire x1="104.14" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
+<junction x="104.14" y="73.66"/>
 <pinref part="U$9" gate="G$1" pin="5"/>
+<wire x1="104.14" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
+<junction x="104.14" y="68.58"/>
 <label x="83.82" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -10978,59 +10968,41 @@ Wire Colors
 <net name="GND" class="1">
 <segment>
 <pinref part="U$11" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="177.8" x2="91.44" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="180.34" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
-<label x="93.98" y="180.34" size="1.778" layer="95" xref="yes"/>
+<wire x1="114.3" y1="160.02" x2="114.3" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="162.56" x2="116.84" y2="162.56" width="0.1524" layer="91"/>
+<label x="116.84" y="162.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+5V" class="1">
 <segment>
 <pinref part="U$11" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="172.72" x2="101.6" y2="172.72" width="0.1524" layer="91"/>
-<label x="101.6" y="172.72" size="1.778" layer="95" xref="yes"/>
+<wire x1="121.92" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
+<label x="124.46" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OUTP-A" class="0">
 <segment>
+<pinref part="U$11" gate="G$1" pin="3"/>
+<wire x1="121.92" y1="149.86" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
+<label x="124.46" y="149.86" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
 <pinref part="U$11" gate="G$1" pin="6"/>
-<wire x1="83.82" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
-<label x="81.28" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="106.68" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
+<label x="104.14" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUTN-A" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="5"/>
-<wire x1="83.82" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
-<label x="81.28" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$1" class="1">
-<segment>
-<pinref part="U$8" gate="G$1" pin="6"/>
-<pinref part="SW1" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="1">
-<segment>
-<pinref part="U$9" gate="G$1" pin="6"/>
-<pinref part="SW2" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="OUTP-B" class="0">
-<segment>
-<pinref part="U$11" gate="G$1" pin="3"/>
-<wire x1="99.06" y1="167.64" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
-<label x="101.6" y="167.64" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="OUTN-B" class="0">
-<segment>
 <pinref part="U$11" gate="G$1" pin="4"/>
-<wire x1="91.44" y1="162.56" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="160.02" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
-<label x="93.98" y="160.02" size="1.778" layer="95" xref="yes"/>
+<wire x1="114.3" y1="144.78" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
+<label x="116.84" y="142.24" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="5"/>
+<wire x1="106.68" y1="149.86" x2="104.14" y2="149.86" width="0.1524" layer="91"/>
+<label x="104.14" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
