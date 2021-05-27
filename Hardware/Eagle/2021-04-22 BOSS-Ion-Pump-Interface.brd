@@ -1438,6 +1438,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="D1" pad="2"/>
 <wire x1="20.9575" y1="31.75" x2="18.235" y2="31.75" width="0.508" layer="1"/>
 </signal>
+<signal name="N$1" class="1">
+</signal>
+<signal name="N$2" class="1">
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
